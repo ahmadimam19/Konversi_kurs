@@ -1,0 +1,14 @@
+# Virtual Environment (Jangan di-upload)
+.venv/
+venv/
+ENV/
+
+# Cache Python (Jangan di-upload)
+__pycache__/
+*.py[cod]
+
+# Database Lokal (Opsional)
+db.sqlite3
+
+# Pengaturan Lingkungan
+.env
