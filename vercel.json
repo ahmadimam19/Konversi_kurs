@@ -1,15 +1,15 @@
 {
+  "version": 2,
   "builds": [
     {
-      "src": "konversi_kurs/wsgi.py",
-      "use": "@vercel/python",
-      "config": { "maxLambdaSize": "15mb", "runtime": "python3.9" }
+      "src": "config/wsgi.py",
+      "use": "@vercel/python"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "konversi_kurs/wsgi.py"
+      "dest": "config/wsgi.py"
     }
   ]
 }
